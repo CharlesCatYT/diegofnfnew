@@ -85,8 +85,17 @@ jobs:
           haxelib install hxjsonast
           haxelib git linc_luajit https://github.com/AndreiRudenko/linc_luajit
           haxelib install hscript 
-          haxelib git hscript-ex https://github.com/ianharrigan/hscript-ex
+          haxelib git hscript-ex https://github.com/ianharrigan/hscript-ex      
+          haxelib install newgrounds
+          haxelib install flixel-addons
+          haxelib git faxe https://github.com/uhrobots/faxe
+          haxelib git polymod https://github.com/larsiusprime/polymod.git
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
+          haxelib git extension-webm https://github.com/KadeDev/extension-webm
+          haxelib run lime rebuild extension-webm windows
+          haxelib install actuate 
+          haxelib git extension-webm https://github.com/KadeDev/extension-webm
+          haxelib run lime rebuild extension-webm windows
           haxelib install hxcpp-debug-server
           haxelib list
         shell: cmd
